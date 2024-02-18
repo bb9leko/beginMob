@@ -1,11 +1,12 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-
-import { carregaTopo } from './../../../services/carregaDados';
+import { carregaTopo } from '../../../services/carregaDados';
 
 import foto from './../../../assets/IMG_1268.png'
 
 class Topo extends React.Component {
+
+    
 
     state = {
         topo: {
@@ -28,7 +29,7 @@ class Topo extends React.Component {
         <Image source={foto} style={estilos.foto} />
         <Text style={estilos.nome}>{ this.state.topo.nome }</Text>
         <Text style={estilos.descricao}>{ this.state.topo.descricao }</Text>
-    </View>
+      </View>
    }
 }
 

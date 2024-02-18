@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FlatList, StyleSheet, Text } from 'react-native'; 
+import { api } from '../../../services/api';
 
 //import { carregaCorpo } from './../../../services/carregaDados';
 
